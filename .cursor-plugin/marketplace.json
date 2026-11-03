@@ -1,0 +1,17 @@
+{
+  "name": "aqua-voice",
+  "owner": {
+    "name": "Aqua Voice",
+    "email": "support@aquavoice.com"
+  },
+  "metadata": {
+    "description": "Aqua Voice plugin for Cursor and Grok Bot",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "aqua-voice",
+      "source": "./"
+    }
+  ]
+}

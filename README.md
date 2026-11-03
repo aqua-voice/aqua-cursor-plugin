@@ -21,6 +21,8 @@ This plugin is free and open source. Aqua account billing is handled separately;
 
 ## Install locally
 
+To use an existing checkout, open **Customize → Add → From Local Repository** in Cursor and select this repository's directory. The included marketplace manifest exposes the Aqua Voice plugin for installation.
+
 Until the marketplace listing is approved, clone this repository into Cursor's local plugin directory:
 
 ```sh
