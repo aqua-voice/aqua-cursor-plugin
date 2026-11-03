@@ -1,0 +1,15 @@
+{
+  "name": "aqua-voice",
+  "version": "1.0.0",
+  "description": "Search your stored Aqua dictations, read transcripts, and manage your dictionary, replacements, custom instructions, and settings.",
+  "author": {
+    "name": "Aqua Voice",
+    "email": "support@aquavoice.com"
+  },
+  "homepage": "https://aquavoice.com/mcp",
+  "repository": "https://github.com/aqua-voice/aqua-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["aqua", "voice", "dictation", "transcripts", "productivity", "mcp"],
+  "logo": "assets/icon.png",
+  "mcpServers": "mcp.json"
+}

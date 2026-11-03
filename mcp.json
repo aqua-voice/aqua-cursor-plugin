@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "aqua-voice": {
+      "url": "https://api.aquavoice.com/mcp"
+    }
+  }
+}
