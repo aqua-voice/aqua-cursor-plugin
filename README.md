@@ -67,6 +67,12 @@ The last two examples change your Aqua account. Review the proposed changes befo
 - [Support](mailto:support@aquavoice.com)
 - [Cursor plugin documentation](https://cursor.com/docs/plugins)
 
+## MCP Registry listing
+
+`server.json` describes the hosted Aqua Voice MCP server for the official MCP Registry, under `io.github.aqua-voice/aqua-voice`. This repository contains the client configuration and listing assets; it does not contain the hosted backend source code.
+
+Maintainers can publish the listing by running **Publish to MCP Registry** from this repository's GitHub Actions page on `main`. The workflow uses GitHub OIDC and does not require a stored registry token. Update the version in `server.json` before publishing a new listing version. Registry publication and Cursor Marketplace review are separate processes.
+
 ## License
 
 The plugin package is available under the [MIT License](LICENSE). Aqua Voice names and logos remain trademarks of their respective owners; the license does not grant trademark rights. The hosted Aqua service is governed by Aqua's terms.
