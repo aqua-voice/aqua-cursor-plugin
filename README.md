@@ -21,6 +21,12 @@ This plugin is free and open source. Aqua account billing is handled separately;
 
 ## Install locally
 
+### Cline
+
+To connect the same hosted Aqua Voice MCP server in Cline, follow [the Cline installation guide](llms-install.md). Cline uses Streamable HTTP and Aqua OAuth; no local server is needed. The Cline marketplace logo is [available as a 400×400 PNG](assets/icon-cline-400.png).
+
+### Cursor
+
 To use an existing checkout, open **Customize → Add → From Local Repository** in Cursor and select this repository's directory. The included marketplace manifest exposes the Aqua Voice plugin for installation.
 
 Until the marketplace listing is approved, clone this repository into Cursor's local plugin directory:
